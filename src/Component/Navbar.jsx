@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BsArrowRight } from "react-icons/bs";
-import {HamburgerMenu} from "../SVG/Hamburger-menu";
+import { HamburgerMenu } from "../SVG/Hamburger-menu";
 
 export const Navbar = () =>{
     const [open , Setopen] = useState(false);
