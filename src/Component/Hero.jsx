@@ -14,11 +14,11 @@ export const Hero = () =>{
           <div className="container max-w-screen-xl items-center justify-between mx-auto p-4">
               <div className="flex flex-col-reverse md:flex-row">
                   <div className="md:w-1/2 w-full pt-6">
-                      <p className='text-color1 text-2xl md:text-3xl'>{information.hi}</p>
-                      <h1 className='text-color1 text-3xl md:text-5xl font-bold pt-2'>
+                      <p className='text-color4 text-2xl md:text-3xl'>{information.hi}</p>
+                      <h1 className='text-color4 text-4xl md:text-5xl font-bold pt-2 text-left whitespace-pre-line'>
                           {information.names}
                       </h1>
-                      <p className='text-lg md:text-2xl text-color3 pt-8'>
+                      <p className='text-lg md:text-2xl text-color3 font-semibold pt-8 whitespace-pre-line'>
                           {information.Introduction}
                       </p>
                   </div>
