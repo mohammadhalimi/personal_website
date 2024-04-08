@@ -29,8 +29,7 @@ export const Passions = () => {
                   <div className="p-4 max-w-sm">
                       <div className="flex rounded-lg h-full p-8 flex-col shadow-xl">
                           <div className="items-center mb-3">
-                              <div
-                                  className="mr-3 inline-flex items-center justify-center black flex-shrink-0">
+                              <div  className="mr-3 inline-flex items-center justify-center black flex-shrink-0">
                                   <a href="#">
                                       <img className="rounded-t-lg" src={ti.pic} alt="pic"/>
                                   </a>
