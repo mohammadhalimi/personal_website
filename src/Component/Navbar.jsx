@@ -9,15 +9,19 @@ export const Navbar = () =>{
     }
     const name ={firstName:'Mohammad' , lastName:'Halimi'}
     const link = [{
-        title:'About'
+            id:1,
+            title:'About'
         },
         {
+            id:2,
             title:'Passions'
         },
         {
+            id:3,
             title:'Portfolio'
         },
         {
+            id:4,
             title:'Contact me'
         }]
 return(
@@ -36,7 +40,7 @@ return(
               <div className="hidden w-full md:block md:w-auto">
                   <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
                       {link.map((ti) => (
-                          <li>
+                          <li key={ti.id}>
                               <a href="#"
                                  className="block text-xl py-2 text-color1 hover:bg-color2 hover:text-white px-3 bg-orange-500 rounded md:bg-transparent p-2 rounded-lg"
                                  aria-current="page">{ti.title}</a>
@@ -53,7 +57,7 @@ return(
                   </button>
                   <ul className="font-medium p-4 md:p-0 border border-gray-100 rtl:space-x-reverse bg-gray-100">
                       {link.map((ti) => (
-                          <li>
+                          <li key={ti.id} onClick={(e)=> e.preventDefault()}>
                               <a href="#" className="block text-xl py-2 text-color1 hover:bg-color2  hover:text-white px-3 rounded">
                                   {ti.title}
                               </a>
