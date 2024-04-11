@@ -8,7 +8,8 @@ module.exports = {
         'color2': '#608AF5',
         'color3': '#082032',
         'color4': '#172774',
-        'color5': '#14279B'
+        'color5': '#14279B',
+        'color6': '#2765fe'
       },
       fontFamily: {
         primaryRegular:['Regular'],

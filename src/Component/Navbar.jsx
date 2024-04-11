@@ -42,7 +42,7 @@ return(
                       {link.map((ti) => (
                           <li key={ti.id}>
                               <a href="#"
-                                 className="block text-xl py-2 text-color1 hover:bg-color2 hover:text-white px-3 bg-orange-500 rounded md:bg-transparent p-2 rounded-lg"
+                                 className="block text-xl py-2 text-color1 hover:bg-color2 hover:text-white px-3 rounded p-2 rounded-lg"
                                  aria-current="page">{ti.title}</a>
                           </li>
                       ))}

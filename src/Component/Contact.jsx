@@ -3,6 +3,7 @@ import mypic2 from '../image/Instagram.png'
 import mypic3 from '../image/Email.png'
 import mypic4 from '../image/telegram.png'
 import { Outlet, Link } from "react-router-dom";
+
 export const Contact = () => {
     const info =[
         {
