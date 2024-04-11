@@ -1,19 +1,15 @@
-import { Navbar } from './Component/Navbar'
-import { Hero } from './Component/Hero'
-import { Passions } from './Component/Passions'
-import { Portfolio } from './Component/Portfolio'
+import { Email } from './Component/Email'
+import { Main } from './Component/Main'
+import { Route, Routes} from "react-router-dom";
 import { Contact } from './Component/Contact'
-import { Footer } from './Component/Footer'
 
 function App() {
   return (
     <>
-        <Navbar />
-        <Hero />
-        <Passions />
-        <Portfolio />
-        <Contact />
-        <Footer />
+      <Routes path='' element={<Contact />}>
+          <Route path='/' index element={<Main />}/>
+          <Route path='/email' element={<Email />}/>
+      </Routes>
     </>
   );
 }
