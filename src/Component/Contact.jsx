@@ -34,7 +34,7 @@ export const Contact = () => {
     return(
       <>
           <div className='max-w-screen-xl items-center justify-between mx-auto text-center md:mt-24 mt-12'>
-              <span className="self-center md:text-3xl text-2xl font-normal whitespace-nowrap text-color5 text-center">{pass.ad}<span className="self-center md:text-3xl text-2xl font-semibold whitespace-nowrap text-color5 ps-2">{pass.pass}</span></span>
+              <span className="self-center md:text-3xl text-2xl font-primaryRegular whitespace-nowrap text-color5 text-center">{pass.ad}<span className="self-center md:text-3xl text-2xl font-primarySemibold whitespace-nowrap text-color5 ps-2">{pass.pass}</span></span>
               <div className='flex flex-wrap justify-center mt-10'>
                   {info.map((ti) =>(
                       <div className="p-4 max-w-sm" key={ti.id}>
@@ -47,7 +47,7 @@ export const Contact = () => {
                                   </div>
                               </div>
                               <div className="flex flex-col justify-between flex-grow">
-                                  <p className="leading-relaxed text-xl black">
+                                  <p className="leading-relaxed text-xl black font-primaryRegular">
                                       {ti.text}
                                   </p>
                               </div>

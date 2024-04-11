@@ -10,6 +10,12 @@ module.exports = {
         'color4': '#172774',
         'color5': '#14279B'
       },
+      fontFamily: {
+        primaryRegular:['Regular'],
+        primaryMedium:['Medium'],
+        primarySemibold:['SemiBold'],
+        primaryBold:['Bold']
+      }
     },
   },
   plugins: [],

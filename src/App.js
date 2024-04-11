@@ -4,6 +4,7 @@ import { Passions } from './Component/Passions'
 import { Portfolio } from './Component/Portfolio'
 import { Contact } from './Component/Contact'
 import { Footer } from './Component/Footer'
+
 function App() {
   return (
     <>

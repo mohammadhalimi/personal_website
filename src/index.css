@@ -2,3 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'Bold';
+    src: local('Poppins-Bold'),
+    url('./assets/Font/Poppins-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Medium';
+    src: local('Poppins-Medium'),
+url('./assets/Font/Poppins-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Regular';
+    src: local('Poppins-Regular'),
+url('./assets/Font/Poppins-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SemiBold';
+    src: local('Poppins-SemiBold'),
+url('./assets/Font/Poppins-SemiBold.ttf') format('truetype');
+}
