@@ -15,7 +15,7 @@ export const Portfolio = () => {
     }]
     return(
         <>
-            <div className='max-w-screen-xl items-center justify-between mx-auto text-center md:mt-24 mt-12'>
+            <div className='max-w-screen-xl items-center justify-between mx-auto text-center md:mt-24 mt-12' id='Portfolio'>
                 <span className="self-center md:text-3xl text-2xl font-primaryRegular whitespace-nowrap text-color5 text-center">{pass.ad}<span className="self-center md:text-3xl text-2xl font-primarySemibold whitespace-nowrap text-color5 ps-2">{pass.pass}</span></span>
                 <div className='flex flex-wrap justify-center mt-10'>
                     {gallery.map((ti) =>(

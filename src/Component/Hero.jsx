@@ -11,7 +11,7 @@ const information = {
 export const Hero = () =>{
     return(
       <>
-          <div className="container max-w-screen-xl items-center justify-between mx-auto p-4">
+          <div className="container max-w-screen-xl items-center justify-between mx-auto p-4" id='About'>
               <div className="flex flex-col-reverse md:flex-row">
                   <div className="md:w-1/2 w-full pt-6">
                       <p className='text-color4 text-2xl md:text-3xl font-primaryRegular'>{information.hi}</p>

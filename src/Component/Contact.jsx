@@ -35,7 +35,7 @@ export const Contact = () => {
 
     return(
       <>
-          <div className='max-w-screen-xl items-center justify-between mx-auto text-center md:mt-24 mt-12'>
+          <div className='max-w-screen-xl items-center justify-between mx-auto text-center md:mt-24 mt-12' id='Contactme'>
               <span className="self-center md:text-3xl text-2xl font-primaryRegular whitespace-nowrap text-color5 text-center">{pass.ad}<span className="self-center md:text-3xl text-2xl font-primarySemibold whitespace-nowrap text-color5 ps-2">{pass.pass}</span></span>
               <div className='flex flex-wrap justify-center mt-10'>
                   {info.map((ti) =>(
@@ -43,9 +43,9 @@ export const Contact = () => {
                           <div className="flex rounded-lg h-full p-8 flex-col">
                               <div className="items-center mb-3">
                                   <div  className="mr-3 inline-flex items-center justify-center black flex-shrink-0">
-                                      <Link to={ti.link} onClick={(e) => ti.link === '/#' ? e.preventDefault() : null}>
-                                          <img className="rounded-t-lg" src={ti.pic} alt="pic"/>
-                                      </Link>
+                                          <Link to={ti.link} onClick={(e) => ti.link === '/#' ? e.preventDefault() : null}>
+                                              <img className="rounded-t-lg" src={ti.pic} alt="pic"/>
+                                          </Link>
                                   </div>
                               </div>
                               <div className="flex flex-col justify-between flex-grow">
