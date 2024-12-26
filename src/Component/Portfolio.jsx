@@ -20,13 +20,11 @@ export const Portfolio = () => {
                 <div className='flex flex-wrap justify-center mt-10'>
                     {gallery.map((ti) =>(
                         <div className="p-4 max-w-sm" key={ti.id}>
-                            <div className="flex rounded-lg h-full w-full flex-col shadow-xl">
+                            <div className="flex rounded-lg h-full w-full flex-col shadow-xl cursor-pointer">
                                 <div className="items-center">
                                     <div
-                                        className="inline-flex items-center justify-center black flex-shrink-0">
-                                        <a href="#" onClick={(e) => e.preventDefault()}>
+                                        className="inline-flex items-center justify-center black flex-shrink-0">                                        
                                             <img className="rounded-t-lg w-full h-full" src={ti.pic} alt="pic"/>
-                                        </a>
                                     </div>
                                 </div>
                             </div>

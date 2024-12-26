@@ -1,23 +1,5 @@
-import {HamburgerMenu} from "../SVG/Hamburger-menu";
-
 export const NavbarL = () => {
     const name ={firstName:'Mohammad' , lastName:'Halimi'}
-    const link = [{
-        id:1,
-        title:'About'
-        },
-        {
-            id:2,
-            title:'Passions'
-        },
-        {
-            id:3,
-            title:'Portfolio'
-        },
-        {
-            id:4,
-            title:'Contact me'
-        }]
     return(
         <>
             <nav className="bg-white border-gray-200">

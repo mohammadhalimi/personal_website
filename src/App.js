@@ -7,9 +7,10 @@ function App() {
   return (
     <>
       <Routes path='' element={<Contact />}>
-          <Route path='/' index element={<Main />}/>
-          <Route path='/email' element={<Email />}/>
+         <Route path='/' index element={<Main />}/>
+         <Route path='/email' element={<Email />}/>
       </Routes>
+
     </>
   );
 }

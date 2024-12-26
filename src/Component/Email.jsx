@@ -4,10 +4,9 @@ import {useRef, useState} from "react";
 import emailjs from '@emailjs/browser';
 
 export const Email = () =>{
-     const id =5;
     const [ text , Settext ] = useState('');
     const [ confirm , SetConfirm ] = useState(false)
-    const comment = ['Thanks for your message, I will read it' , 'The operation was not successful. Please try again']
+    const comment = ['Thanks for your message, I will read it']
     const firstAndlast = [{
         title:'First name',
         placeholder:'your First name',

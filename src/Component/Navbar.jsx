@@ -62,7 +62,7 @@ return(
                   <ul className="font-primaryRegular p-4 md:p-0 border border-gray-100 rtl:space-x-reverse bg-gray-100">
                       {link.map((ti) => (
                           <li key={ti.id} onClick={(e)=> e.preventDefault()}>
-                              <a href={ti.href} className="block text-xl py-2 text-color1 hover:bg-color2  hover:text-white px-3 rounded">
+                              <a href={ti.href} className="block text-xl py-2 text-color1 hover:bg-color2  hover:text-white px-3 rounded" onClick={()=> Setopen(false)}>
                                   {ti.title}
                               </a>
                           </li>
